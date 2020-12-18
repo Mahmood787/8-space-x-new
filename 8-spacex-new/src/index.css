@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgba(0, 0, 0,.9);
+  
+}
+.Jumbo{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed;
+  margin-bottom: 40px;
+  height: 100vh;
+  background-image: url("https://www.spacex.com/static/images/backgrounds-new/NROL108-3430.webp");
+}
+.Jumbo2{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed;
+  margin-bottom: 40px;
+  height: 50vh;
+  background-image: url("https://www.spacex.com/static/images/backgrounds-new/NROL108-3430.webp");
+}
+.Jumbo .h11{
+  color: white;
+  top: 30%;
+  position: absolute;
+  padding-left: 8%;
+  font-size: 20px;
+  text-align: left;
+}
+.h22{
+  color: white;
+  top: 13%;
+  position: absolute;
+  padding-left: 5%;
+  font-size: 17px;
+  text-align: left;
+}
+.h11 h2{
+  font-size: 40px;
+}
+.h11 p{
+  padding: 0;
+  margin: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
