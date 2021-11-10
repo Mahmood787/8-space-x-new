@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-base: rgba(130, 130, 130, 1);
+    --color-text-muted: rgba(130, 130, 130, 0.5);
+    --color-text-inverted: white;
+    --color-gradient1: #d9227b;
+    --color-gradient2: #783a81;
+  }
+}
+
+.foucs-fill:focus {
+  fill: black;
+}
